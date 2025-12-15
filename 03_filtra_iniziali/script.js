@@ -4,7 +4,7 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 
 
 // Dichiara la funzione qui.
-
+iniziaConA();
 
 // Invoca la funzione qui e stampa il risultato in console
 function iniziaConA (names){
