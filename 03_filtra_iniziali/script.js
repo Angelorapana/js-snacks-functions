@@ -10,7 +10,7 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 function iniziaConA (names){
     let namesStartA =[];
     for (let index = 0; index < names.length; index++) {
-        if (names[index][0] == "A ")
+        if (names[index][0] == "A")
         namesStartA.push(names[index]);
          }
          return (namesStartA); 
@@ -20,4 +20,4 @@ function iniziaConA (names){
 
 
 //Risultato atteso se si passa la lettera A: ["Anna", "Adele", "Alessandra"]
-
+console.log(iniziaConA(names));
