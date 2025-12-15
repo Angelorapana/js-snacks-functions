@@ -5,9 +5,15 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
 // Dichiara la funzione qui.
 
-
 // Invoca la funzione qui e stampa il risultato in console
 
-
+function iniziali(names){
+    let inizialiArray = [];
+     for (let index = 0; index < names.length; index++) {
+        inizialiArray.push(names[index][0]);
+     }
+    return (inizialiArray);
+}
 
 //Risultato atteso: ["A", "L", "M", "A", "G", "A"]
+console.log(iniziali(names))

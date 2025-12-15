@@ -14,4 +14,4 @@ function saluto(userName){
 
 
 //Risultato atteso se si passa 'Mario': // ciao Mario
-console.log("Ciao"+ userName )
+console.log("Ciao " + userName )
